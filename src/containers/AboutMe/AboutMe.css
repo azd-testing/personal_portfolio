@@ -1,0 +1,43 @@
+.app__aboutus{
+    background-color: var(--color-black);
+}
+
+.app__aboutus-p-tittle{
+    margin-bottom: 100px;
+}
+
+
+@media screen and (min-width: 2000px) {
+    .app__header h1 {
+        font-size: 180px;
+        line-height: 210px;
+    }
+}
+
+@media screen and (max-width: 1150px) {
+    .app__header h1 {
+        font-size: 90px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .app__header h1 {
+        font-size: 60px;
+        line-height: 87px;
+    }
+
+    .p__cormorant-header{
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .app__header h1 {
+        font-size: 40px;
+        line-height: 70px;
+    }
+    .p__cormorant-header {
+        padding-bottom: 10px;
+        font-size: 23px;
+    }
+}
